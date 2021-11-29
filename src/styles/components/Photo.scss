@@ -1,9 +1,15 @@
 
 .Photo{
-    border: 1px solid #000000;
+    border: 5px solid white;
     width: 100px;
     height: 100px;
-    border-radius: 50px;
+    border-radius: 100px;
+    overflow: hidden;
+    z-index: 15;
+    position: absolute;
 }
 
+.img-de-profil {
+    width: 100%;
+}
 

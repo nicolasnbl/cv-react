@@ -1,6 +1,72 @@
 
+$w: 100vh;
+
 .Home{
     display: flex;
-    justify-content: center;
-    background-color: grey;
+    height: 2000px;
 }
+
+.photo-container{
+    width: 110px;
+    height: 110px;
+    position: fixed;
+    transform: translateY(-50%) translateX($w) scale(2);
+    top: 30%;
+    z-index: 15;
+    border: 1px solid gray;
+    border-radius: 60px;    
+}
+
+.left-position{
+    transform: translateY(-50%) translateX(20vh) scale(2);
+}
+
+.center-position{
+    transform: translateY(-50%) translateX(100vh) scale(1.5);
+}
+
+.image-background {
+    z-index: 5;
+    position: fixed;
+    width: 100%;
+    background-color: salmon;
+    height: 30%;
+}
+
+.block-container{
+    z-index: 20;
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    width: 70%;
+    opacity: 0;
+}
+
+.sous-block{
+    z-index: 20;
+    background-color: white;
+    box-shadow: black 0px 0px 10px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.block-infos-container{
+}
+
+.block-experience-container{
+}
+
+.block-left-container{
+    position: fixed;
+    top: 40%;
+    left: 2%;
+    width: 20%;
+}
+
+.block-contact-container{
+    width: 100%;
+    box-shadow: black 0px 0px 10px;
+    border-radius: 10px;
+}
+

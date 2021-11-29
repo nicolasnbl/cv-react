@@ -1,0 +1,32 @@
+
+.BlockContact{
+    padding: 10px;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.text-contact-info{
+    text-align: left;
+    font-size: 20px;
+    padding: 10px;
+    margin: auto;
+    margin-left: 0;
+}
+
+.icone-container{
+    width: 40px;
+    margin: auto;
+    margin-left: 0;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.icone{
+    height: 40px;
+    padding: 5px;
+}
+

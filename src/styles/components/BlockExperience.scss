@@ -1,0 +1,146 @@
+
+$tailleImage: 100px;
+
+//Stage
+
+.block-stage{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.stage-container{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.block-stage-image-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.img-stage-container{
+    width: $tailleImage;
+    height: $tailleImage;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.img-stage{
+    width: 100%;
+}
+
+.block-stage-info{
+    margin-left: 15px;
+}
+
+h3{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.sous-info{
+    font-size: 14px;
+    text-align: left;
+    color: rgb(56, 56, 56);
+}
+
+.description-stage{
+    margin: 10px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.separation{
+    width: 90%;
+    height: 1px;
+    background-color: rgb(56, 56, 56);
+    position: relative;
+    left: 5%;
+}
+
+//Formation
+
+.block-formation{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+}
+
+.formation{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.img-formation-container{
+    width: $tailleImage;
+    height: $tailleImage;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.img-formation{
+    width: 100%;
+}
+
+.block-formation-info{
+    margin-left: 15px;
+}
+
+//Divers Expérience
+
+.block-divers{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.divers-container{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.block-divers-image-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.img-divers-container{
+    width: $tailleImage;
+    height: $tailleImage;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.img-divers{
+    width: 100%;
+}
+
+.block-divers-info{
+    margin-left: 15px;
+}
+
+.description-divers{
+    margin: 10px;
+    text-align: left;
+    font-size: 15px;
+}
