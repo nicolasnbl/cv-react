@@ -1,5 +1,5 @@
 import React from 'react';
-import "./../styles/components/BlockLangue.scss"
+
 
 const BlockLangue = () => {
 

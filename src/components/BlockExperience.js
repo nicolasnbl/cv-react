@@ -1,5 +1,4 @@
 import React from 'react';
-import "./../styles/components/BlockExperience.scss"
 
 const BlockExperience = () => {
     return (
@@ -14,8 +13,8 @@ const BlockExperience = () => {
                 <div className="stage-1 stage-container">
 
                     <div className="block-stage-image-info">
-                        <div className="img-stage-container">
-                            <img src="./img/stage-bosch.jpg" alt="image-bosch" className="img-stage"/>
+                        <div className="img-stage-container img-container">
+                            <img src="./img/stage-bosch.jpg" alt="image-bosch" className="img-stage img-icone"/>
                         </div>
 
                         <div className="block-stage-info">
@@ -26,7 +25,7 @@ const BlockExperience = () => {
                         </div>
                     </div>
 
-                    <div className="description-stage">
+                    <div className="description-stage description">
                         Stage Ouvrier d’une durée de 6 semaines. Participation à l’entretien et la maintenance des voiture de particulier dans un garage Bosch dans les Yvelines (78).
                     </div>
                 </div>
@@ -34,8 +33,8 @@ const BlockExperience = () => {
                 <div className="stage-2 stage-container">
 
                     <div className="block-stage-image-info">
-                        <div className="img-stage-container">
-                            <img src="./img/stage-arianegroup.jpg" alt="image-arianeGroup" className="img-stage"/>
+                        <div className="img-stage-container img-container">
+                            <img src="./img/stage-arianegroup.jpg" alt="image-arianeGroup" className="img-stage img-icone"/>
                         </div>
 
                         <div className="block-stage-info">
@@ -46,7 +45,7 @@ const BlockExperience = () => {
                         </div>
                     </div>
 
-                    <div className="description-stage">
+                    <div className="description-stage description">
                         Découverte du fonctionnement et des différents métiers de l'entreprise, sur une durée de une semaine.
                     </div>
                     
@@ -61,8 +60,8 @@ const BlockExperience = () => {
 
             <div className="block-formation">
                 <div className="formation-1 formation">
-                    <div className="img-formation-container">
-                        <img src="./img/formation-eigsi.jpg" alt="image Eigsi" className="img-formation" />
+                    <div className="img-formation-container img-container">
+                        <img src="./img/formation-eigsi.jpg" alt="image Eigsi" className="img-formation img-icone" />
                     </div>
 
                     <div className="block-formation-info">
@@ -73,8 +72,8 @@ const BlockExperience = () => {
                 </div>
 
                 <div className="formation-2 formation">
-                    <div className="img-formation-container">
-                        <img src="./img/formation-lycee.jpg" alt="image lycee" className="img-formation" />
+                    <div className="img-formation-container img-container">
+                        <img src="./img/formation-lycee.jpg" alt="image lycee" className="img-formation img-icone" />
                     </div>
 
                     <div className="block-formation-info">
@@ -94,8 +93,8 @@ const BlockExperience = () => {
                 <div className="divers-1 divers-container">
 
                     <div className="block-divers-image-info">
-                        <div className="img-divers-container">
-                            <img src="./img/divers-ef.jpg" alt="image-ef" className="img-divers"/>
+                        <div className="img-divers-container img-container">
+                            <img src="./img/divers-ef.jpg" alt="image-ef" className="img-divers img-icone"/>
                         </div>
 
                         <div className="block-divers-info">
@@ -106,7 +105,7 @@ const BlockExperience = () => {
                         </div>
                     </div>
 
-                    <div className="description-divers">
+                    <div className="description-divers description">
                         Description EF
                     </div>
                 </div>
@@ -114,8 +113,8 @@ const BlockExperience = () => {
                 <div className="divers-2 divers-container">
 
                     <div className="block-divers-image-info">
-                        <div className="img-divers-container">
-                            <img src="./img/divers-cnes.jpg" alt="image-ef" className="img-divers"/>
+                        <div className="img-divers-container img-container">
+                            <img src="./img/divers-cnes.jpg" alt="image-ef" className="img-divers img-icone"/>
                         </div>
 
                         <div className="block-divers-info">
@@ -126,7 +125,7 @@ const BlockExperience = () => {
                         </div>
                     </div>
 
-                    <div className="description-divers">
+                    <div className="description-divers description">
                         Description CNES
                     </div>
                 </div>

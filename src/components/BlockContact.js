@@ -1,5 +1,5 @@
 import React from 'react';
-import "./../styles/components/BlockContact.scss"
+
 
 const BlockContact = () => {
     
@@ -31,6 +31,18 @@ const BlockContact = () => {
                 </div>
                 <div className="text-contact-info">
                     nicolas.noblet.24@eigsi.fr
+                </div>
+            </div>
+
+            <div className="reseaux">
+                <div className="reseau">
+                    
+                        <div className="icone-reseau-container">
+                            <a href="https://www.linkedin.com/in/nicolas-noblet-4089ba1a0/">
+                                <img src="./img/reseau-linkedin.png" alt="" className="icone"/>
+                            </a>
+                        </div>
+                    
                 </div>
             </div>
 

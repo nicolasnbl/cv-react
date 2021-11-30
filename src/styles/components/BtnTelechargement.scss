@@ -1,0 +1,19 @@
+
+
+.btn-telechargement{
+    width: auto;
+    height: 75px;
+    background-color: $color-1;
+    border-radius: 50px;
+    @include verticalCenter;
+    
+}
+
+.btnTele-text{
+    padding: 20px;
+    font-family: $font-4;
+    font-size: 20px;
+    color: $white;
+}
+
+

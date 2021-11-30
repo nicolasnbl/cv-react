@@ -1,36 +1,49 @@
 
-$w: 100vh;
 
 .Home{
     display: flex;
+    justify-content: center;
     height: 2000px;
+}
+
+.nav-container{
+    z-index: 15;
+    position: absolute;
+    top: 1vh;
+    left: 1vh;
+}
+
+.btnTelechargement-container{
+    z-index: 15;
+    position: absolute;
+    top: 5vh;
+    right: 5vh;
 }
 
 .photo-container{
     width: 110px;
     height: 110px;
     position: fixed;
-    transform: translateY(-50%) translateX($w) scale(2);
-    top: 30%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-55px) scale(2);
+    top: 40%;
     z-index: 15;
     border: 1px solid gray;
-    border-radius: 60px;    
+    border-radius: 50%;   
 }
 
-.left-position{
-    transform: translateY(-50%) translateX(20vh) scale(2);
-}
-
-.center-position{
-    transform: translateY(-50%) translateX(100vh) scale(1.5);
+.btnScroll-container{
+    z-index: 15;
+    position: absolute;
+    bottom: 5%;
 }
 
 .image-background {
     z-index: 5;
     position: fixed;
     width: 100%;
-    background-color: salmon;
-    height: 30%;
+    background-color: $color-2;
+    height: 40%;
 }
 
 .block-container{
@@ -44,29 +57,26 @@ $w: 100vh;
 
 .sous-block{
     z-index: 20;
-    background-color: white;
-    box-shadow: black 0px 0px 10px;
+    background-color: $white;
+    box-shadow: $shadow-2;
     width: 100%;
-    border-radius: 10px;
+    border-radius: $borderRadius;
     margin-bottom: 20px;
 }
 
-.block-infos-container{
-}
-
-.block-experience-container{
-}
 
 .block-left-container{
     position: fixed;
-    top: 40%;
+    top: 55%;
     left: 2%;
-    width: 20%;
+    width: 24%;
 }
 
 .block-contact-container{
+    transform: translateX(-120%);
+    animation-duration: 2000ms;
     width: 100%;
-    box-shadow: black 0px 0px 10px;
-    border-radius: 10px;
+    box-shadow: $shadow-2;
+    border-radius: $borderRadius;
 }
 

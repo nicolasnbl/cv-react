@@ -1,3 +1,6 @@
+body{
+    background-color: $white;
+}
 
 .BlockContact{
     padding: 10px;
@@ -23,6 +26,7 @@
     margin-right: 5px;
     display: flex;
     justify-content: center;
+    padding: 5px;
 }
 
 .icone{
@@ -30,3 +34,25 @@
     padding: 5px;
 }
 
+.reseau{
+    padding: 10px;
+}
+
+.icone-reseau-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone-reseau-container a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+}
+
+.icone-reseau-container a:hover{
+    background-color: $black-shadow;
+}

@@ -1,0 +1,16 @@
+
+.btnScroll{
+    width: 100%;
+    height: 50px;
+    background-color: $color-2;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-btnScroll{
+    padding: 5px;
+    margin: 10px;
+    font-family: $font-1;
+}

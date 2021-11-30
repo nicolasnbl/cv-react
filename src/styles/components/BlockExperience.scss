@@ -1,5 +1,5 @@
 
-$tailleImage: 100px;
+
 
 //Stage
 
@@ -9,8 +9,6 @@ $tailleImage: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-
 }
 
 .stage-container{
@@ -26,35 +24,29 @@ $tailleImage: 100px;
     justify-content: flex-start;
 }
 
-.img-stage-container{
+.img-container{
     width: $tailleImage;
     height: $tailleImage;
-    box-shadow: 1px 1px 5px gray;
+    box-shadow: $shadow-3;
 }
 
-.img-stage{
-    width: 100%;
+.img-icone{
+    width: 100px;
 }
 
 .block-stage-info{
     margin-left: 15px;
 }
 
-h3{
-    font-size: 20px;
-    text-align: left;
-    margin-top: 10px;
-    margin-bottom: 7px;
-    font-weight: bold;
-}
-
 .sous-info{
+    font-family: $font-5;
     font-size: 14px;
     text-align: left;
-    color: rgb(56, 56, 56);
+    color: $black-2;
 }
 
-.description-stage{
+.description{
+    font-family: $font-4;
     margin: 10px;
     text-align: left;
     font-size: 15px;
@@ -63,7 +55,7 @@ h3{
 .separation{
     width: 90%;
     height: 1px;
-    background-color: rgb(56, 56, 56);
+    background-color: $black-2;
     position: relative;
     left: 5%;
 }
@@ -76,7 +68,6 @@ h3{
     display: flex;
     flex-direction: column;
     justify-content: left;
-
 }
 
 .formation{
@@ -86,15 +77,6 @@ h3{
     margin-bottom: 15px;
 }
 
-.img-formation-container{
-    width: $tailleImage;
-    height: $tailleImage;
-    box-shadow: 1px 1px 5px gray;
-}
-
-.img-formation{
-    width: 100%;
-}
 
 .block-formation-info{
     margin-left: 15px;
@@ -125,22 +107,7 @@ h3{
     justify-content: flex-start;
 }
 
-.img-divers-container{
-    width: $tailleImage;
-    height: $tailleImage;
-    box-shadow: 1px 1px 5px gray;
-}
-
-.img-divers{
-    width: 100%;
-}
-
 .block-divers-info{
     margin-left: 15px;
 }
 
-.description-divers{
-    margin: 10px;
-    text-align: left;
-    font-size: 15px;
-}
