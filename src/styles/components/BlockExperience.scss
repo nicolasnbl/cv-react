@@ -18,24 +18,16 @@
     margin-bottom: 15px;
 }
 
-.block-stage-image-info{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-
 .img-container{
     width: $tailleImage;
     height: $tailleImage;
     box-shadow: $shadow-3;
+    @include verticalCenter;
 }
 
 .img-icone{
     width: 100px;
-}
 
-.block-stage-info{
-    margin-left: 15px;
 }
 
 .sous-info{
@@ -78,9 +70,6 @@
 }
 
 
-.block-formation-info{
-    margin-left: 15px;
-}
 
 //Divers Expérience
 
@@ -101,13 +90,12 @@
     margin-bottom: 15px;
 }
 
-.block-divers-image-info{
+.block-info-container{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
 
-.block-divers-info{
+.block-info{
     margin-left: 15px;
 }
-

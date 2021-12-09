@@ -1,4 +1,5 @@
 import React from 'react';
+import BlockCompetence from '../components/BlockCompetence';
 import BlockContact from '../components/BlockContact';
 import BlockExperience from '../components/BlockExperience';
 import BlockInfos from '../components/BlockInfos';
@@ -10,37 +11,59 @@ import Photo from '../components/Photo';
 
 const Home = () => {
 
+    var blockContainer = null;
+    var photoContainer = null;
+    var leftBlock = null;
+    var btnScrollContainer = null;
+
+
+    window.addEventListener("load", () =>{
+        blockContainer = document.getElementById("main-block");
+        photoContainer = document.getElementById("photo-block");
+        leftBlock = document.getElementById("block-contact-container");
+        btnScrollContainer = document.getElementById("btnScroll-container"); 
+    });
 
     window.addEventListener("scroll", () =>{
         const scroll = window.scrollY;
 
-        const blockContainer = document.getElementById("main-block");
-        const photoContainer = document.getElementById("photo-block");
-        const leftBlock = document.getElementById("block-contact-container");
-        
-        if( scroll > 300 ) {
-            blockContainer.style.opacity = "1" ;
-            photoContainer.style.left = "5%";
-            leftBlock.style.transform = "translateX(0%)";
-            photoContainer.style.transform = "translateY(-50%) translateX(0) scale(2)";
-        }
-        else {
-            blockContainer.style.opacity =""+(scroll/300)+"";
-            leftBlock.style.transform = "translateX(-120%)";
+        if( scroll == 0 ) {
+            
         }
 
-        if ( scroll < 250 ){
-            photoContainer.style.transform = "translateY(-50%) translateX(-"+(90*(scroll/300))+"vh) scale(2)";
-            
+        if( scroll > 300 ) {
+            scrollplus300css(); //action css sans la var scroll
+        }
+        else {
+            scrollmoins300css(scroll);
         }
     });
 
+    const scrollzerocss = () => {
+        
+    }
+    
+    const scrollplus300css = () => {
+        blockContainer.style.opacity = "1" ;
+        leftBlock.style.transform = "translateX(0%)";
+        btnScrollContainer.style.display = "none";
+    }
+
+    const scrollmoins300css = (scrl) => {
+        btnScrollContainer.style.display = "flex";
+        leftBlock.style.transform = "translateX(-120%)";
+        blockContainer.style.opacity =""+(scrl/300)+"";
+    }
+
+    const clickBtn = () => {
+        window.scroll(0, 300);
+    }
 
     return (
         <div className="Home">
 
             <div className="image-background">
-
+                <img src="./img/arrierePlan.png" alt="" />
             </div>
 
             <div className="nav-container">
@@ -55,7 +78,7 @@ const Home = () => {
                 <Photo />
             </div>
 
-            <div className="btnScroll-container">
+            <div className="btnScroll-container" id="btnScroll-container" onClick={() => clickBtn} >
                 <BtnScroll />
             </div>
 
@@ -68,6 +91,9 @@ const Home = () => {
                 </div>
                 <div className="block-langue-container sous-block">
                     <BlockLangue />
+                </div>
+                <div className="block-competence-container sous-block">
+                    <BlockCompetence />
                 </div>
             </div>
 

@@ -4,7 +4,7 @@ import React from 'react';
 const BlockContact = () => {
     
     return (
-        <div className="BlockContact">
+        <div className="BlockContact sous-block">
 
             <div className="contact-container">
                 <div className="icone-container">

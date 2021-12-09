@@ -1,0 +1,50 @@
+
+.BlockCompetence{
+    padding: 0px;
+}
+
+.h2-competence{
+    text-align: center;
+    margin-left: 0;
+}
+
+.block-cao{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.block-catia{
+    margin-bottom: 10px;
+    width: 40%;
+}
+
+.fleche-cao{
+    width: 20%;
+}
+
+//Programmation
+
+.block-group-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+}
+
+.img-recadrage{
+    height: 94px;
+}
+
+.img-large{
+    width: 145px;
+}
+
+.prog-description{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}

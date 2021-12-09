@@ -8,9 +8,9 @@
 
 .nav-container{
     z-index: 15;
-    position: absolute;
-    top: 1vh;
-    left: 1vh;
+    position: fixed;
+    top: 0vh;
+    left: 0vh;
 }
 
 .btnTelechargement-container{
@@ -28,13 +28,12 @@
     transform: translateY(-50%) translateX(-55px) scale(2);
     top: 40%;
     z-index: 15;
-    border: 1px solid gray;
     border-radius: 50%;   
 }
 
 .btnScroll-container{
-    z-index: 15;
-    position: absolute;
+    z-index: 40;
+    position: fixed;
     bottom: 5%;
 }
 
@@ -59,7 +58,6 @@
     z-index: 20;
     background-color: $white;
     box-shadow: $shadow-2;
-    width: 100%;
     border-radius: $borderRadius;
     margin-bottom: 20px;
 }
