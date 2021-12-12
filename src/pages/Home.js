@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import BlockCompetence from '../components/BlockCompetence';
 import BlockContact from '../components/BlockContact';
 import BlockExperience from '../components/BlockExperience';
@@ -27,8 +27,11 @@ const Home = () => {
     window.addEventListener("scroll", () =>{
         const scroll = window.scrollY;
 
-        if( scroll == 0 ) {
-            
+        if( scroll > 0 ) {
+            scrollZeroCss();
+        }
+        else{
+            scrollPlusDeZeroCss();
         }
 
         if( scroll > 300 ) {
@@ -39,8 +42,13 @@ const Home = () => {
         }
     });
 
-    const scrollzerocss = () => {
-        
+    const scrollZeroCss = () => {
+        btnScrollContainer.style.display = "none";
+    }
+
+    const scrollPlusDeZeroCss = () => {
+
+        btnScrollContainer.style.display = "block";
     }
     
     const scrollplus300css = () => {
