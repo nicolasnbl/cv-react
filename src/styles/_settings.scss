@@ -97,3 +97,23 @@ a:visited{
     color: $black;
 }
 
+
+
+
+
+// Animation
+
+.opacity-100{
+    opacity: 1;
+    height: 50px;
+    transition: opacity 2s;
+}
+
+.opacity-0{
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: all 0s 0.2s, opacity 0.2s ;
+}
+
+

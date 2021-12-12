@@ -1,9 +1,10 @@
-import React from 'react';
-import { useEffect } from 'react/cjs/react.development';
+import React, {useEffect, useState} from 'react';
 
 const BtnScroll = () => {
 
     const [isVisible, setisVisible] = useState(true);
+
+    const className = isVisible ? 'opacity-100 '+'btnScroll' : 'opacity-0 '+'btnScroll';
 
     const toggleVisibility = () => {
         if( window.pageYOffset < 300 ) {
@@ -30,13 +31,11 @@ const BtnScroll = () => {
 
 
     return (
-        <div className="BtnScroll">
-            <div className="btnScroll">
+            <div type='button' onClick={scrollDown} className={className}>
                 <div className="text-btnScroll">
                     Sroll pour découvrir
                 </div>
             </div>
-        </div>
     );
 };
 

@@ -11,6 +11,8 @@ import Photo from '../components/Photo';
 
 const Home = () => {
 
+    /*
+
     var blockContainer = null;
     var photoContainer = null;
     var leftBlock = null;
@@ -67,6 +69,8 @@ const Home = () => {
         window.scroll(0, 300);
     }
 
+    */
+
     return (
         <div className="Home">
 
@@ -86,7 +90,7 @@ const Home = () => {
                 <Photo />
             </div>
 
-            <div className="btnScroll-container" id="btnScroll-container" onClick={() => clickBtn} >
+            <div className="btnScroll-container" id="btnScroll-container">
                 <BtnScroll />
             </div>
 
