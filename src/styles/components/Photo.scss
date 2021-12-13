@@ -1,14 +1,11 @@
 
 .Photo{
     box-shadow: 0 0 0 1px $color-3, 0 0 0 5px $color-2 , 0 0 0 6px $color-3;
-    width: 100%;
-    height: 100%;
     border-radius: 100px;
     overflow: hidden;
-    z-index: 15;
-    position: absolute;
-    margin: 0;
-    padding: 0;
+    width: 200px;
+    height: 200px;
+    transform: translate(-50%, -50%);
 }
 
 .img-de-profil {
