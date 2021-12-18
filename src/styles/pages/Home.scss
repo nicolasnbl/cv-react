@@ -1,16 +1,16 @@
-
+// ce document doit juste contenir les placements des components dans la page
 
 .Home{
     display: flex;
-    justify-content: center;
     height: 2000px;
 }
 
 .nav-container{
-    z-index: 15;
+    z-index: 50;
     position: fixed;
     top: 0vh;
     left: 0vh;
+    /*transform: translateX(-250px);*/
 }
 
 .btnTelechargement-container{
@@ -20,20 +20,23 @@
     right: 5vh;
 }
 
-.photo-container{
-    width: 110px;
-    height: 110px;
-    position: fixed;
+.titre1-container{
+    z-index: 20;
+    position: absolute;
     left: 50%;
-    transform: translateY(-50%) translateX(-55px) scale(2);
-    top: 40%;
-    z-index: 15;
-    border-radius: 50%;   
+    top: 55%;
 }
 
-.btnScroll-container{
+.Photo{
+    position: fixed;
+    top: 400px;
+    z-index: 15;
+}
+
+.btnScroll-container{ //position du btn dans la page home
     z-index: 40;
     position: fixed;
+    left: 50%;
     bottom: 5%;
 }
 
@@ -51,16 +54,9 @@
     top: 50%;
     right: 2%;
     width: 70%;
-    opacity: 0;
 }
 
-.sous-block{
-    z-index: 20;
-    background-color: $white;
-    box-shadow: $shadow-2;
-    border-radius: $borderRadius;
-    margin-bottom: 20px;
-}
+
 
 
 .block-left-container{
@@ -68,13 +64,5 @@
     top: 55%;
     left: 2%;
     width: 24%;
-}
-
-.block-contact-container{
-    transform: translateX(-120%);
-    animation-duration: 2000ms;
-    width: 100%;
-    box-shadow: $shadow-2;
-    border-radius: $borderRadius;
 }
 

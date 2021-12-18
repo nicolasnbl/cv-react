@@ -1,10 +1,30 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 
 
 const BlockContact = () => {
+
+    const [translation, setTranslation] = useState(false)
+
+    const className = translation ? 'transaltion-right BlockContact sous-block' : 'translation-left BlockContact sous-block';
+
+    const toggleTranslation = () => {
+        if( window.pageYOffset < 300 ) {
+            setTranslation(false);
+        }
+        else{
+            setTranslation(true);
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener('scroll', toggleTranslation);
+        return () => {
+            window.removeEventListener('scroll', toggleTranslation);
+        }
+    }, [])
     
     return (
-        <div className="BlockContact sous-block">
+        <div className={className}>
 
             <div className="contact-container">
                 <div className="icone-container">
