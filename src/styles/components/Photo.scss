@@ -1,10 +1,10 @@
 
 .Photo{
     box-shadow: 0 0 0 1px $color-3, 0 0 0 5px $color-2 , 0 0 0 6px $color-3;
-    border-radius: 100px;
+    border-radius: 50%;
     overflow: hidden;
-    width: 200px;
-    height: 200px;
+    width: 25vh;
+    height: 25vh;
     transform: translate(-50%, -50%);
 }
 

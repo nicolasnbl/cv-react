@@ -41,6 +41,7 @@ $tailleImage: 100px;
 * {
     margin: 0;
     padding: 0;
+    cursor: default;
 }
 
 body {
@@ -147,11 +148,11 @@ a:visited{
 }
 
 .navClose{
-    transform: translateX(-252px);
+    transform: translateX(0px);
     transition: transform 1.5s;
 }
 
 .navOpen{
-    transform: translateX(0px);
+    transform: translateX(252px);
     transition: transform 0.75s;
 }

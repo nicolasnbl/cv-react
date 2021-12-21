@@ -1,4 +1,7 @@
 import React, {useState, useEffect} from 'react';
+import { MdLocationPin } from 'react-icons/md';
+import { FaPhoneAlt } from 'react-icons/fa';
+import { GrMail } from 'react-icons/gr';
 
 
 const BlockContact = () => {
@@ -28,7 +31,7 @@ const BlockContact = () => {
 
             <div className="contact-container">
                 <div className="icone-container">
-                    <img src="./img/icone-localisation.png" alt="" className="icone" />
+                    <MdLocationPin size='100vh' style={{height : '5vh'}}/>
                 </div>
                 <div className="text-contact-info">
                     15 bis avenue de l'abrevoir<br/>
@@ -38,7 +41,7 @@ const BlockContact = () => {
 
             <div className="contact-container">
                 <div className="icone-container">
-                    <img src="./img/icone-telephone.png" alt="" className="icone"/>
+                    <FaPhoneAlt size='100vh' style={{height : '5vh'}}/>
                 </div>
                 <div className="text-contact-info">
                     +33 6 60 50 90 32
@@ -47,7 +50,7 @@ const BlockContact = () => {
 
             <div className="contact-container">
                 <div className="icone-container">
-                    <img src="./img/icone-mail.png" alt="" className="icone"/>
+                    <GrMail size='100vh' style={{height : '5vh'}}/>
                 </div>
                 <div className="text-contact-info">
                     nicolas.noblet.24@eigsi.fr

@@ -30,15 +30,19 @@ const Navigation = () => {
 
 
     useEffect(() => {
-        const menu = document.getElementById("menu-nav");
+        const mainDiv = document.getElementById("menu-nav");
+        const menu = document.getElementById("main-container-nav");
         const icon = document.getElementById("icon-nav");
         const experience = document.getElementById("nav-experience");
         menu.addEventListener('mouseleave', toggleClose);
+        mainDiv.addEventListener('mouseleave', toggleClose);
         icon.addEventListener('mouseenter', toggleOpen);
         experience.addEventListener('click', scrollToElement);
         return () => {
             menu.removeEventListener('mouseleave', toggleClose);
+            mainDiv.removeEventListener('mouseleave', toggleClose);
             icon.removeEventListener('mouseenter', toggleOpen);
+            experience.removeEventListener('click', scrollToElement);
         }
     }, [])
 
@@ -46,7 +50,7 @@ const Navigation = () => {
     return (
         <div className={className} id="menu-nav">
 
-            <div className="main-container-nav">
+            <div className="main-container-nav" id="main-container-nav">
                 <div className="nav-experience nav-block">
                     <div className="nav-experience-titre nav-titre" id='nav-experience'>
                         Expériences

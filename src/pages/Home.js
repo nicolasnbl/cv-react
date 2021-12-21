@@ -14,7 +14,7 @@ const Home = () => {
         <div className="Home">
 
             <div className="image-background">
-                <img src="./img/arrierePlan.png" alt="" />
+                <img src="./img/arrierePlan.png" alt="" className='img-bgd' />
             </div>
 
             <div className="nav-container">
