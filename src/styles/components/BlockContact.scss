@@ -32,30 +32,35 @@
     padding: 5px;
 }
 
-.icone{
+.icone-reseau{
     height: 40px;
     padding: 5px;
 }
 
-.reseau{
-    padding: 10px;
+.icone-reseau:hover{
+    cursor: pointer;
+    color: $color-2;
+}
+
+.reseaux{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .icone-reseau-container{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
+
 
 .icone-reseau-container a{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 25px;
-    width: 50px;
-    height: 50px;
-}
-
-.icone-reseau-container a:hover{
-    background-color: $black-shadow;
+    border-radius: 50%;
+    width: 6vh;
+    height: 6vh;
 }

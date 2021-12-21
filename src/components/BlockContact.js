@@ -2,6 +2,9 @@ import React, {useState, useEffect} from 'react';
 import { MdLocationPin } from 'react-icons/md';
 import { FaPhoneAlt } from 'react-icons/fa';
 import { GrMail } from 'react-icons/gr';
+import { BsLinkedin, BsGithub } from 'react-icons/bs';
+
+
 
 
 const BlockContact = () => {
@@ -58,15 +61,21 @@ const BlockContact = () => {
             </div>
 
             <div className="reseaux">
-                <div className="reseau">
+
+                
+                    <div className="icone-reseau-container">
+                        <a href="https://www.linkedin.com/in/nicolas-noblet-4089ba1a0/">
+                            <BsLinkedin size='4vh' className="icone-reseau"/>
+                        </a>
+                    </div>
+
+                    <div className="icone-reseau-container">
+                        <a href="https://github.com/nicolasnbl">
+                            <BsGithub size='5vh' className="icone-reseau"/>
+                        </a>
+                    </div>
                     
-                        <div className="icone-reseau-container">
-                            <a href="https://www.linkedin.com/in/nicolas-noblet-4089ba1a0/">
-                                <img src="./img/reseau-linkedin.png" alt="" className="icone"/>
-                            </a>
-                        </div>
-                    
-                </div>
+                
             </div>
 
         </div>
