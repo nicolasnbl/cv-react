@@ -33,7 +33,7 @@ const BtnScroll = () => {
     return (
             <div type='button' onClick={scrollDown} className={className}>
                 <div className="text-btnScroll">
-                    Sroll pour découvrir
+                    Scroll pour découvrir
                 </div>
             </div>
     );

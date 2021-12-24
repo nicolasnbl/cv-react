@@ -30,16 +30,19 @@
     display: flex;
     justify-content: center;
     padding: 5px;
+    color: $black-3;
 }
 
 .icone-reseau{
     height: 40px;
     padding: 5px;
+    color: $black-3;
 }
 
 .icone-reseau:hover{
     cursor: pointer;
     color: $color-2;
+    transition: color 0.5s;
 }
 
 .reseaux{
@@ -52,7 +55,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2px;
     
+}
+
+.icone-reseau-container:hover{
+    border-radius: 22px;
+    background-color: $black-3;
+    transition: background-color 0.5s;
 }
 
 

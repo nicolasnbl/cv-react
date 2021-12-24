@@ -18,6 +18,7 @@ $color-3: #0CF574;
 $white: #fff;
 $black: #333;
 $black-2: rgb(56, 56, 56);
+$black-3: #111;
 $black-shadow: rgba(0, 0, 0, 0.3);
 
 @mixin black-shadow{
@@ -155,4 +156,18 @@ a:visited{
 .navOpen{
     transform: translateX(252px);
     transition: transform 0.75s;
+}
+
+.barre-notVisible{
+    transform: translateX(-100%);
+}
+
+.barre-visible-anglais{
+    transform: translateX(-20%);
+    transition: transform 3s;
+}
+
+.barre-visible-espagnol{
+    transform: translateX(-40%);
+    transition: transform 3s;
 }
