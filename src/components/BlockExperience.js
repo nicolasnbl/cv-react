@@ -7,13 +7,13 @@ const BlockExperience = () => {
 
     
     return (
-        <div className="block-experience">
+        <div className="BlockExperience" id="BlockExperience">
 
             <h1>Expérience</h1>
 
-            <h2>Stage</h2>
+            <h2 id="BlockStage">Stage</h2>
 
-            <div className="block-stage">
+            <div className="block-stage" >
 
                 <div className="stage-1 stage-container">
 
@@ -61,7 +61,7 @@ const BlockExperience = () => {
 
             <div className="separation"></div>
 
-            <h2>Formation</h2>
+            <h2 id='BlockFormation'>Formation</h2>
 
             <div className="block-formation">
                 <div className="formation-1 formation">
@@ -91,7 +91,7 @@ const BlockExperience = () => {
 
             <div className="separation"></div>
 
-            <h2>Divers Expériences</h2>
+            <h2 id='BlockDiver'>Divers Expériences</h2>
 
             <div className="block-divers">
 

@@ -36,13 +36,17 @@
 .icone-reseau{
     height: 40px;
     padding: 5px;
-    color: $black-3;
 }
 
 .icone-reseau:hover{
     cursor: pointer;
     color: $color-2;
     transition: color 0.5s;
+}
+
+.icone-reseau:not(:hover){
+    color: $black-3;
+    transition: color 0.7s;
 }
 
 .reseaux{
@@ -63,6 +67,12 @@
     border-radius: 22px;
     background-color: $black-3;
     transition: background-color 0.5s;
+}
+
+.icone-reseau-container:not(:hover){
+    border-radius: 22px;
+    background-color: none;
+    transition: background-color 0.7s;
 }
 
 

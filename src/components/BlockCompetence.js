@@ -2,11 +2,11 @@ import React from 'react';
 
 const BlockCompetence = () => {
     return (
-        <div className="BlockCompetence">
+        <div className="BlockCompetence" id="BlockCompetence">
             <h1>Compétence</h1>
 
             <div className="cao-container">
-                <h2 className="h2-competence">Conception assiter par ordinateur</h2>
+                <h2 className="h2-competence" id='BlockCao'>Conception assiter par ordinateur</h2>
                 
                 <div className="block-cao">
                     <div className="block-catia block-info-container">
@@ -40,7 +40,7 @@ const BlockCompetence = () => {
             <div className="separation"></div>
 
             <div className="prog-container">
-                <h2 className="h2-competence">Programmation</h2>
+                <h2 className="h2-competence" id='BlockProgrammation'>Programmation</h2>
                 
                 <div className="btn-gitHub">
 
@@ -59,7 +59,6 @@ const BlockCompetence = () => {
                 </div>
 
                <div className="prog-description">
-                    Description Programmation évoquer react js
                     <div className="date-java sous-info"> Début de l'apprentissage : 2016 (HTML/CSS) 2021 (JS/React.js) </div>
                     <div className="info-java sous-info"> Formation avec L'EIGSI + plus avancé en autodidacte </div>
                </div>

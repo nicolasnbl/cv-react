@@ -18,14 +18,6 @@ const Navigation = () => {
     const toggleOpen = () => {
         setisOpen(true);
     }
-
-    const scrollToElement = () => {
-        window.scrollTo({
-            top: 700,
-            left: 0,
-            behavior: 'smooth'
-        })
-    }
     
 
 
@@ -37,12 +29,10 @@ const Navigation = () => {
         menu.addEventListener('mouseleave', toggleClose);
         mainDiv.addEventListener('mouseleave', toggleClose);
         icon.addEventListener('mouseenter', toggleOpen);
-        experience.addEventListener('click', scrollToElement);
         return () => {
             menu.removeEventListener('mouseleave', toggleClose);
             mainDiv.removeEventListener('mouseleave', toggleClose);
             icon.removeEventListener('mouseenter', toggleOpen);
-            experience.removeEventListener('click', scrollToElement);
         }
     }, [])
 
@@ -52,37 +42,58 @@ const Navigation = () => {
 
             <div className="main-container-nav" id="main-container-nav">
                 <div className="nav-experience nav-block">
-                    <div className="nav-experience-titre nav-titre" id='nav-experience'>
-                        Expériences
-                    </div>
+                    <a href="#BlockInfos">
+                        <div className="nav-info-titre nav-titre" id='nav-info'>
+                            Information générale
+                        </div>
+                    </a>
+                    <a href="#BlockExperience">
+                        <div className="nav-experience-titre nav-titre" id='nav-experience'>
+                            Expériences
+                        </div>
+                    </a>
                     <div className="nav-sous-block-container">
-                        <div className="nav-stage nav-sous-block">
-                            Stage
-                        </div>
-                        <div className="nav-formation nav-sous-block">
-                            Formation
-                        </div>
-                        <div className="nav-divers nav-sous-block">
-                            Divers Expériences
-                        </div>
+                        <a href="#BlockStage">
+                            <div className="nav-stage nav-sous-block">
+                                Stage
+                            </div>
+                        </a>
+                        <a href="#BlockFormation">
+                            <div className="nav-formation nav-sous-block">
+                                Formation
+                            </div>
+                        </a>
+                        <a href="#BlockDiver">
+                            <div className="nav-divers nav-sous-block">
+                                Divers Expériences
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div className="nav-langue nav-block">
-                    <div className="nav-langue-titre nav-titre">
-                        Maîtrise des langues
-                    </div>
+                    <a href="#BlockLangue">
+                        <div className="nav-langue-titre nav-titre">
+                            Maîtrise des langues 
+                        </div> 
+                    </a>
                 </div>
                 <div className="nav-competence nav-block">
-                    <div className="nav-competence-titre nav-titre">
-                        Compétence
-                    </div>
+                    <a href="#BlockCompetence">
+                        <div className="nav-competence-titre nav-titre">
+                            Compétence
+                        </div>
+                    </a>
                     <div className="nav-sous-block-container">
-                        <div className="nav-stage nav-sous-block">
-                            Conception assiter par ordinateur
-                        </div>
-                        <div className="nav-formation nav-sous-block">
-                            Programmation
-                        </div>
+                        <a href="#BlockCao">
+                            <div className="nav-stage nav-sous-block">
+                                Conception assiter par ordinateur
+                            </div>
+                        </a>
+                        <a href="#BlockProgrammation">
+                            <div className="nav-formation nav-sous-block">
+                                Programmation
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>

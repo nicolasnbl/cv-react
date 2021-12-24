@@ -28,7 +28,7 @@ const BlockLangue = () => {
 
 
     return (
-        <div className="BlockLangue">
+        <div className="BlockLangue" id='BlockLangue'>
             <div className="titre titre-langue">Maîtrise des langues</div>
 
             <div className="block-langue">
