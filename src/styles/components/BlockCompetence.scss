@@ -44,7 +44,20 @@
 }
 
 .prog-description{
-    text-align: center;
     margin: 10px;
     padding: 10px;
+}
+
+.sous-info-htmlCssJs{
+    text-align: center;
+}
+
+.prog-sous-container{
+    display: flex;
+    flex-direction: row;
+    width: 385px;
+}
+
+.prog-description{
+    margin: 5px;
 }

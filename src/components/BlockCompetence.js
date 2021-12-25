@@ -2,11 +2,11 @@ import React from 'react';
 
 const BlockCompetence = () => {
     return (
-        <div className="BlockCompetence">
+        <div className="BlockCompetence" id="BlockCompetence">
             <h1>Compétence</h1>
 
             <div className="cao-container">
-                <h2 className="h2-competence">Conception assiter par ordinateur</h2>
+                <h2 className="h2-competence" id='BlockCao'>Conception assiter par ordinateur</h2>
                 
                 <div className="block-cao">
                     <div className="block-catia block-info-container">
@@ -40,7 +40,7 @@ const BlockCompetence = () => {
             <div className="separation"></div>
 
             <div className="prog-container">
-                <h2 className="h2-competence">Programmation</h2>
+                <h2 className="h2-competence" id='BlockProgrammation'>Programmation</h2>
                 
                 <div className="btn-gitHub">
 
@@ -59,29 +59,28 @@ const BlockCompetence = () => {
                 </div>
 
                <div className="prog-description">
-                    Description Programmation évoquer react js
-                    <div className="date-java sous-info"> Début de l'apprentissage : 2016 (HTML/CSS) 2021 (JS/React.js) </div>
-                    <div className="info-java sous-info"> Formation avec L'EIGSI + plus avancé en autodidacte </div>
+                    <div className="date-java sous-info-htmlCssJs"> Début de l'apprentissage : 2016 (HTML/CSS) 2021 (JS/React.js) </div>
+                    <div className="info-java sous-info-htmlCssJs"> Formation avec L'EIGSI + plus avancé en autodidacte </div>
                </div>
 
                <div className="block-group-img">
 
-                   <div className="php-container">
+                   <div className="php-container prog-sous-container">
                         <div className="img-container img-large">
                             <img src="./img/prog-php.png" alt="" className="img-icone img-recadrage" />
                         </div>
-                        <div className="php-description">
+                        <div className="php-description prog-description">
                             <div className="date-java sous-info"> Début de l'apprentissage : 2019 </div>
                             <div className="info-java sous-info"> En autodidacte avec Openclassroom</div>
                             <div className="php-description-text">Notion permettant de crée un back-end en php (site avec des utilisateurs, gestion d'une base de donné SQL, ...)</div>
                         </div>
                     </div>
 
-                    <div className="php-container">
+                    <div className="php-container prog-sous-container">
                         <div className="img-container ">
                             <img src="./img/prog-java.png" alt="" className="img-icone" />
                         </div>
-                        <div className="java-description">
+                        <div className="java-description prog-description">
                             <div className="date-java sous-info"> Début de l'apprentissage : 2019-2020 </div>
                             <div className="info-java sous-info"> Formation suivie à L'EIGSI </div>
                             <div className="java-description-text">Notions de base sur le programmation objet en Java, un projet réalisé avec l'école</div>

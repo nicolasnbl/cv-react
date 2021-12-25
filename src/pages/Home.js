@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import Background from '../components/Background';
 import BlockContact from '../components/BlockContact';
 import BtnScroll from '../components/BtnScroll';
 import BtnTelechargement from '../components/BtnTelechargement';
@@ -14,8 +15,10 @@ const Home = () => {
         <div className="Home">
 
             <div className="image-background">
-                <img src="./img/arrierePlan.png" alt="" />
+                <img src="./img/arrierePlan.png" alt="" className='img-bgd' />
             </div>
+
+            <Background />
 
             <div className="nav-container">
                 <Navigation />

@@ -10,7 +10,7 @@
     position: fixed;
     top: 0vh;
     left: 0vh;
-    /*transform: translateX(-250px);*/
+    transform: translateX(-252px);
 }
 
 .btnTelechargement-container{
@@ -29,7 +29,7 @@
 
 .Photo{
     position: fixed;
-    top: 400px;
+    top: 40%;
     z-index: 15;
 }
 
@@ -46,6 +46,14 @@
     width: 100%;
     background-color: $color-2;
     height: 40%;
+    overflow: hidden;
+}
+
+.img-bgd{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-45%);
 }
 
 .block-container{

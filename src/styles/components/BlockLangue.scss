@@ -46,31 +46,35 @@
     width: 60%;
     height: 15px;
     border: 1px solid $black-2;
+    box-shadow: $shadow;
     overflow: hidden;
+    border-radius: 8px;
 }
 
 .sous-barre{
     position: relative;
     width: 100%;
     height: 15px;
-    background-color: $color-1;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(67,146,241,1) 60%, rgba(0,212,255,1) 100%);
 
 }
-
+/*
 .anglais{
     transform: translateX(-20%);
 }
 .espagnol{
     transform: translateX(-40%);
-}
+}*/
 
 .btn-link-langue-container{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
-    border-radius: 50px;
+    border-radius: 50%;
     cursor: pointer;
+    height: 30px;
+    margin: auto 2vw auto 0;    
 }
 
 .btn-link-langue-container:hover{

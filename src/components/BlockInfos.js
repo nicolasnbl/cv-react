@@ -3,7 +3,7 @@ import React from 'react';
 const BlockInfos = () => {
 
     return (
-        <div className="BlockInfos">
+        <div className="BlockInfos" id='BlockInfos'>
             <div className="titre">Infos</div>
 
             <div className="text-infos"> 
