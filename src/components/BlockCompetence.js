@@ -6,7 +6,7 @@ const BlockCompetence = () => {
             <h1>Compétence</h1>
 
             <div className="cao-container">
-                <h2 className="h2-competence" id='BlockCao'>Conception assiter par ordinateur</h2>
+                <h2 className="h2-competence" id='BlockCao'>Conception assistée par ordinateur</h2>
                 
                 <div className="block-cao">
                     <div className="block-catia block-info-container">
