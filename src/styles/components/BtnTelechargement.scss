@@ -1,9 +1,12 @@
 
 
 .btn-telechargement{
+    width: auto;
+    height: 75px;
     background-color: $color-1;
     border-radius: 50px;
     @include verticalCenter;
+    
 }
 
 .btnTele-text{
@@ -12,32 +15,5 @@
     font-size: 20px;
     color: $white;
 }
-
-.isDownLoad{
-    height: 0px;
-    width: 0px;
-    opacity: 0;
-    padding: 0;
-}
-
-.validateIcon{
-    padding: 20px;
-    padding-top: 13px; /* décalage mais je sais pas pourquoi solution temporaire */
-    font-family: $font-4;
-    font-size: 30px;
-    background-color: $color-2;
-    color: $white;
-    border-radius: 50%;
-    font-weight: 800px;
-}
-
-.isNotDownLoad2{
-    height: 0px;
-    width: 0px;
-    opacity: 0;
-    padding: 0;
-}
-
-
 
 
