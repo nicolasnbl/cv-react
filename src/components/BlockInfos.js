@@ -7,7 +7,7 @@ const BlockInfos = () => {
             <div className="titre">Infos</div>
 
             <div className="text-infos"> 
-                Élève en première année du cycle ingénieur à L'EIGSI la Rochelle.<br /><br />
+                Élève en première année du cycle ingénieur à l'EIGSI la Rochelle.<br /><br />
                 Curieux, sérieux, dynamique, j’aime me passionner pour des projets en équipe.<br />
                 Je consacre mon temps libre aux échecs et au sport notamment aux randonnées en vélo et la course à pied. J'aime aussi me passionner dans de nombreux domaines, en ce moment à la fabrication d'une guitare électrique et à la conception d'un site internet.<br /><br />
                 Première expérience professionnelle au sein d'un garage Bosch durant six semaines.<br />

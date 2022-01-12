@@ -20,9 +20,6 @@ const Home = () => {
 
             <Background />
 
-            <div className="nav-container">
-                <Navigation />
-            </div>
 
             <div className="btnTelechargement-container">
                 <BtnTelechargement />

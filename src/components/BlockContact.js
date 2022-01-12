@@ -37,7 +37,7 @@ const BlockContact = () => {
                     <MdLocationPin size='100vh' style={{height : '5vh'}}/>
                 </div>
                 <div className="text-contact-info">
-                    15 bis avenue de l'abrevoir<br/>
+                    15 bis avenue de l'abreuvoir<br/>
                     Marly-le-Roi
                 </div>
             </div>

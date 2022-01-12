@@ -3,10 +3,10 @@ import React from 'react';
 const BlockCompetence = () => {
     return (
         <div className="BlockCompetence" id="BlockCompetence">
-            <h1>Compétence</h1>
+            <h1>Compétences</h1>
 
             <div className="cao-container">
-                <h2 className="h2-competence" id='BlockCao'>Conception assiter par ordinateur</h2>
+                <h2 className="h2-competence" id='BlockCao'>Conception assitée par ordinateur</h2>
                 
                 <div className="block-cao">
                     <div className="block-catia block-info-container">
